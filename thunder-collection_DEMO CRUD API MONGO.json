@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "DEMO CRUD API MONGO",
+    "collectionId": "6dee7498-c257-4d12-99fc-7e136dad44bc",
+    "dateExported": "2025-01-13T20:18:50.830Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "77138a29-a599-40f4-aa54-2dc8e4c63a15",
+            "colId": "6dee7498-c257-4d12-99fc-7e136dad44bc",
+            "containerId": "",
+            "name": "http://localhost:3000/items",
+            "url": "http://localhost:3000/items",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-01-13T19:23:34.774Z",
+            "modified": "2025-01-13T19:59:38.811Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Prueba de NESTJS 2\",\n  \"price\": 15,\n  \"description\": \"Esto es una prueba\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "20a333b2-4c09-46d8-9653-b634cf2eb6ff",
+            "colId": "6dee7498-c257-4d12-99fc-7e136dad44bc",
+            "containerId": "",
+            "name": "http://localhost:3000/items",
+            "url": "http://localhost:3000/items",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-01-13T19:39:12.578Z",
+            "modified": "2025-01-13T20:02:16.854Z",
+            "headers": []
+        },
+        {
+            "_id": "8546da39-da43-460b-9876-5999593467bf",
+            "colId": "6dee7498-c257-4d12-99fc-7e136dad44bc",
+            "containerId": "",
+            "name": "Seach by ID",
+            "url": "http://localhost:3000/items/678570aac6774c5083b5f048",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-01-13T20:02:53.480Z",
+            "modified": "2025-01-13T20:05:18.561Z",
+            "headers": []
+        },
+        {
+            "_id": "45c0f882-36b8-4fe4-9d02-61a62c18c061",
+            "colId": "6dee7498-c257-4d12-99fc-7e136dad44bc",
+            "containerId": "",
+            "name": "update Item",
+            "url": "http://localhost:3000/items/678570aac6774c5083b5f048",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2025-01-13T20:12:51.280Z",
+            "modified": "2025-01-13T20:15:28.188Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Maria\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b9f5f94f-9010-480a-86a3-d4b463399d8f",
+            "colId": "6dee7498-c257-4d12-99fc-7e136dad44bc",
+            "containerId": "",
+            "name": "delete item",
+            "url": "http://localhost:3000/items/678570aac6774c5083b5f048",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2025-01-13T20:17:11.521Z",
+            "modified": "2025-01-13T20:17:18.501Z",
+            "headers": []
+        }
+    ],
+    "ref": "p-rCaqWLnvLJBYW0Ffov7LNU5iUK0MQKDc82x_i6zJ1Ys2YH2p3D5r00vEI7CajN2LRERut-8kVsBrUQmkcjSw"
+}

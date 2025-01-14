@@ -9,9 +9,10 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle('MI API documentation')
-    .setDescription('The demo api for items')
+    .setDescription('The demo api for the NestJS course')
     .setVersion('1.0')
     .addTag('items')
+    .addTag('users')
     .build();
 
   const documentFactory = () => SwaggerModule.createDocument(app, config);

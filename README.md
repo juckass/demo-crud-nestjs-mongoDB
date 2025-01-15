@@ -2,11 +2,14 @@
 
 Este es un proyecto básico utilizando el framework [NestJS](https://nestjs.com/). 
 
-Esto es un demo de un crud de items de practica con mongoDB.
+Esto es un demo de un crud de items, users y auth jwt de practica con mongoDB.
 
 Tiene configurado el docker-composer con mongo.
 
 Tiene collections de thunder client de visual studio code.
+
+Tambien en localhost/documentation tenemos una documentacion de swagger con validacion jwt
+
 
 
 ## Requisitos

@@ -8,11 +8,13 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
+    .addBearerAuth()
     .setTitle('MI API documentation')
     .setDescription('The demo api for the NestJS course')
     .setVersion('1.0')
     .addTag('items')
     .addTag('users')
+    .addTag('auth')
     .build();
 
   const documentFactory = () => SwaggerModule.createDocument(app, config);
